@@ -53,7 +53,7 @@
                                                     <color key="textColor" red="0.44572153141361248" green="0.44572153141361248" blue="0.44572153141361248" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88 Division St, Mission Bay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YM3-UU-l9N">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88 Division St, Mission Bay" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YM3-UU-l9N">
                                                     <rect key="frame" x="81" y="47" width="174" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -93,6 +93,7 @@
                                                 <constraint firstItem="Dr5-AS-KAg" firstAttribute="leading" secondItem="YM3-UU-l9N" secondAttribute="leading" id="cgy-Tb-6at"/>
                                                 <constraint firstItem="8s5-YO-rgB" firstAttribute="top" secondItem="T2g-bc-WRa" secondAttribute="top" constant="9" id="mYd-Eb-SQd"/>
                                                 <constraint firstItem="8s5-YO-rgB" firstAttribute="leading" secondItem="PYe-Dt-J1s" secondAttribute="trailing" constant="8" id="q0A-Lc-tpr"/>
+                                                <constraint firstAttribute="trailing" secondItem="YM3-UU-l9N" secondAttribute="trailing" constant="65" id="soH-G6-m9G"/>
                                                 <constraint firstItem="YM3-UU-l9N" firstAttribute="top" secondItem="xyY-JF-e4R" secondAttribute="bottom" constant="3" id="su9-5x-Bje"/>
                                                 <constraint firstItem="UPo-od-ZtW" firstAttribute="top" secondItem="8s5-YO-rgB" secondAttribute="bottom" constant="3" id="tIx-OH-vK2"/>
                                                 <constraint firstAttribute="trailing" secondItem="UPo-od-ZtW" secondAttribute="trailing" constant="8" id="tOK-IC-1Lw"/>
