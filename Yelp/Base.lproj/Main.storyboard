@@ -14,15 +14,15 @@
                         <viewControllerLayoutGuide type="bottom" id="VBY-gq-v8E"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XhR-oz-92f">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="149" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BiI-O3-fhE">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BusinessCell" rowHeight="149" id="TU9-gk-QmQ" customClass="BusinessCell" customModule="Yelp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="92" width="320" height="149"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="149"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TU9-gk-QmQ" id="T2g-bc-WRa">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="148.5"/>
@@ -38,7 +38,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1. Grand Pu Bah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYe-Dt-J1s">
                                                     <rect key="frame" x="81" y="8" width="176" height="18"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="0.07 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8s5-YO-rgB">
@@ -56,7 +56,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88 Division St, Mission Bay" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YM3-UU-l9N">
                                                     <rect key="frame" x="81" y="47" width="174" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="469 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9R-JJ-fKO">
@@ -84,10 +84,10 @@
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Dr5-AS-KAg" secondAttribute="bottom" constant="12" id="3VK-9v-AVh"/>
                                                 <constraint firstItem="xyY-JF-e4R" firstAttribute="top" secondItem="PYe-Dt-J1s" secondAttribute="bottom" constant="3" id="Aim-Dq-PG3"/>
                                                 <constraint firstItem="W9R-JJ-fKO" firstAttribute="centerY" secondItem="xyY-JF-e4R" secondAttribute="centerY" id="FPr-g4-VCv"/>
+                                                <constraint firstItem="Dr5-AS-KAg" firstAttribute="top" secondItem="YM3-UU-l9N" secondAttribute="bottom" constant="2" id="QGM-JM-DAu"/>
                                                 <constraint firstItem="YM3-UU-l9N" firstAttribute="leading" secondItem="INC-zT-oz3" secondAttribute="trailing" constant="8" id="URO-0t-7G9"/>
                                                 <constraint firstItem="INC-zT-oz3" firstAttribute="leading" secondItem="T2g-bc-WRa" secondAttribute="leading" constant="8" id="WRV-fb-JXA"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="INC-zT-oz3" secondAttribute="bottom" constant="12" id="WpC-1h-k3z"/>
-                                                <constraint firstItem="Dr5-AS-KAg" firstAttribute="top" secondItem="T2g-bc-WRa" secondAttribute="top" constant="66" id="YH2-jA-ESk"/>
                                                 <constraint firstAttribute="trailing" secondItem="8s5-YO-rgB" secondAttribute="trailing" constant="8" id="YpA-tM-GIQ"/>
                                                 <constraint firstItem="PYe-Dt-J1s" firstAttribute="top" secondItem="T2g-bc-WRa" secondAttribute="top" constant="8" id="ce4-XM-BCx"/>
                                                 <constraint firstItem="Dr5-AS-KAg" firstAttribute="leading" secondItem="YM3-UU-l9N" secondAttribute="leading" id="cgy-Tb-6at"/>
@@ -137,7 +137,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VaA-dY-2oy" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kqM-gl-emU">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="kqM-gl-emU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

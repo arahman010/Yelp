@@ -17,6 +17,7 @@ class Business: NSObject {
     let ratingImageURL: NSURL?
     let reviewCount: NSNumber?
     
+    
     init(dictionary: NSDictionary) {
         name = dictionary["name"] as? String
         
